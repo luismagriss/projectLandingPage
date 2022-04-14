@@ -1,0 +1,232 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+    flex-shrink: 0;
+    margin-right: 333px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0 px;
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    gap: 23px;
+}
+
+.herotext {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topheader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    font-size: 18px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#maintext {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+    width: 400px;
+    margin: 0;
+}
+
+#subtext {
+    font-size: 18px;
+    font-weight: 400;
+    width: 436px;
+    margin: 0 0 16px 0;
+}
+
+.topimg {
+    height: 220px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    flex: 1 1 0;
+}
+.botheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex: 1;
+    margin-bottom: 100px;
+}
+
+button {
+    font-size: 15px;
+    width: 110px;
+    height: 30px;
+    background-color: #3b82f6;
+    border-radius: 6px;
+    border: 0px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.divlinks {
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+.midtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    border: 4px solid #3b82f6;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.midimg {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    padding: 100px 0px 100px 0px;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    margin: 0;
+}
+
+.lastsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3b82f6;
+    padding: 40px 100px 40px 100px;
+    gap: 200px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+#lastbutton {
+    border: 2px solid #f9faf8;
+}
+
+#sign1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#sign2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.signtext {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.footer {
+    padding: 35px;
+}
+
+.imgtxt {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.txt {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    border: 4px;
+    border-radius: 12px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.seila {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 50px;
+    font-weight: 350;
+}
